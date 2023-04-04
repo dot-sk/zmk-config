@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 /*
- * https://github.com/zmkfirmware/zmk/pull/1461/files
+ * https://github.com/zmkfirmwar!!!!!!!qqqqwgngt          e/zmk/pull/1461/files
  */
 #include <../boards/shields/reviung41/boards/nice_nano.overlay>
 
@@ -36,7 +36,7 @@
 // ------------------------------------------------------------------------------------
 // | ESC |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |      DEL    |
 // |     |  _  |  +  |  {  |  }  | "|" |   | LFT |  &  |  *  |  (  |  )  |       ~     |
-// |     |  ~  |  -  |  +  |  {  |  }  |   | HOME| END | PGUP| PGDN| PRSC| SHFT(SPACE) |
+// |     |  ~  |  -  |  +  |  {  |  }  |   | HOME| END | PGUP| PGDN| RGB TOG| SHFT(SPACE) |
 //                       |     |     | RET | ADJ |     |
                         bindings = <
    &kp ESC &kp EXCL  &kp AT      &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS &kp ASTRK &kp LPAR  &kp RPAR  &kp DEL
