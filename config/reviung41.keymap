@@ -58,7 +58,7 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-&kp ESC     &kp N1          &kp N2    &kp N3    &kp N4    &kp N5               &kp N6    &kp N7    &kp UP  &kp C_VOL_DN  &kp C_VOL_UP  &kp DEL
+&kp ESC     &kp F1          &kp F2    &kp N3    &kp N4    &kp N5               &kp F9   &kp F10    &kp UP  &kp C_VOL_DN  &kp C_VOL_UP  &kp DEL
  &trans  &kp MINUS       &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH               &kp F1  &kp LEFT  &kp DOWN     &kp RIGHT     &kp COLON   &kp F6
  &trans     &trans  &kp UNDERSCORE  &kp RALT  &kp CLCK   &kp DQT            &kp EQUAL    &kp GT    &kp F9       &kp F10       &kp F11  &kp F12
                                        &mo 3  &kp LALT            &kp BSPC               &trans    &trans
