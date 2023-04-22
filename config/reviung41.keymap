@@ -43,7 +43,7 @@
             //                       | ALT |     | RET | ADJ | ALT |
 
             bindings = <
-&kp ESC     &kp N1    &kp N2     &kp N3        &kp N4       &kp N5              &kp N6    &kp N7         &kp N8            &kp N9    &kp N0          &kp DEL
+&kp ESC     &kp N1    &kp N2     &kp N3        &kp N4       &kp N5              &kp N6    &kp N7         &kp N8            &kp N9    &kp N0    &kp BACKSPACE
  &trans   &kp EXCL    &kp AT   &kp HASH    &kp DOLLAR  &kp PERCENT           &kp CARET  &kp AMPS      &kp ASTRK          &kp LPAR  &kp RPAR         &kp PIPE
  &trans  &kp GRAVE  &kp PLUS  &kp MINUS      &kp LBRC     &kp RBRC            &kp LBKT  &kp RBKT  &kp LESS_THAN  &kp GREATER_THAN  &kp BSLH  &mt RSHFT SPACE
                                  &trans  &kp LEFT_ALT               &kp RET                &mo 3         &trans
@@ -75,7 +75,7 @@
             bindings = <
 &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF   &none  &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
 &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR   &none            &none                 &none         &none         &none         &none         &none       &none
-          &none            &none            &none            &none   &none            &none                &trans         &none         &none         &none         &none       &none
+          &none            &none            &none            &none   &none            &none                &reset         &none         &none         &none         &none       &none
                                                             &trans  &trans                   &tog 3                      &trans        &trans
             >;
         };
